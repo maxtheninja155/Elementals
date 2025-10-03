@@ -17,18 +17,18 @@ MonoBehaviour:
   maxSpeed: 7
   basicAnimations:
   - {fileID: 7400000, guid: 3809497c1497c104699121d6c09629e8, type: 2}
-  - {fileID: 7400000, guid: 2eb5bab551d8dd54eaac9b9aafac56ca, type: 2}
   - {fileID: 7400000, guid: 6046d1b3a0d2b874ba430869db1f0af5, type: 2}
+  - {fileID: 7400000, guid: d4c327f0fa41afb4d88919be80ee1932, type: 2}
   moveList:
-  - moveName: 
-    moveAnimation: {fileID: 7400000, guid: 3809497c1497c104699121d6c09629e8, type: 2}
+  - moveName: Jab
+    moveAnimation: {fileID: 7400000, guid: 667158453594e6948a19d1aabf8efa6c, type: 2}
     inputSequence:
-    - buttons: 00000000
+    - buttons: 04000000
       frameWindow: 0
-    - buttons: 
-      frameWindow: 0
-    - buttons: 
-      frameWindow: 0
-  - moveName: 
-    moveAnimation: {fileID: 7400000, guid: d41220cf5c2c9684fa413855c3ccfb43, type: 2}
-    inputSequence: []
+  - moveName: Bow Shot
+    moveAnimation: {fileID: 7400000, guid: 13493ee2fcbe2ec4a90ce30e6b5e27e5, type: 2}
+    inputSequence:
+    - buttons: 01000000
+      frameWindow: 1
+    - buttons: 02000000
+      frameWindow: 1
