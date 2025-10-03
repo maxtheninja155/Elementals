@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d83767701c55fbd498bae4d8c69945d6, type: 3}
+  m_Name: Fire Shaman
+  m_EditorClassIdentifier: 
+  character: 1
+  jumpHeight: 60
+  maxSpeed: 7
+  basicAnimations:
+  - {fileID: 7400000, guid: 3809497c1497c104699121d6c09629e8, type: 2}
+  - {fileID: 7400000, guid: 2eb5bab551d8dd54eaac9b9aafac56ca, type: 2}
+  - {fileID: 7400000, guid: 6046d1b3a0d2b874ba430869db1f0af5, type: 2}
+  moveList:
+  - moveName: 
+    moveAnimation: {fileID: 7400000, guid: 3809497c1497c104699121d6c09629e8, type: 2}
+    inputSequence:
+    - buttons: 00000000
+      frameWindow: 0
+    - buttons: 
+      frameWindow: 0
+    - buttons: 
+      frameWindow: 0
+  - moveName: 
+    moveAnimation: {fileID: 7400000, guid: d41220cf5c2c9684fa413855c3ccfb43, type: 2}
+    inputSequence: []

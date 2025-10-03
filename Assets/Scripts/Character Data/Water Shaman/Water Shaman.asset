@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d83767701c55fbd498bae4d8c69945d6, type: 3}
+  m_Name: Water Shaman
+  m_EditorClassIdentifier: 
+  character: 0
+  jumpHeight: 55
+  maxSpeed: 7
+  basicAnimations:
+  - {fileID: 7400000, guid: 3809497c1497c104699121d6c09629e8, type: 2}
+  - {fileID: 7400000, guid: 6046d1b3a0d2b874ba430869db1f0af5, type: 2}
+  - {fileID: 7400000, guid: d4c327f0fa41afb4d88919be80ee1932, type: 2}
+  moveList:
+  - moveName: Light Jab
+    moveAnimation: {fileID: 7400000, guid: 667158453594e6948a19d1aabf8efa6c, type: 2}
+    inputSequence:
+    - buttons: 04000000
+      frameWindow: 1
+  - moveName: Heavy jab
+    moveAnimation: {fileID: 7400000, guid: 13493ee2fcbe2ec4a90ce30e6b5e27e5, type: 2}
+    inputSequence:
+    - buttons: 01000000
+      frameWindow: 1
+  - moveName: Light kick
+    moveAnimation: {fileID: 7400000, guid: 4b0989a8c61a2344aa94d9c70e41bde0, type: 2}
+    inputSequence:
+    - buttons: 03000000
+      frameWindow: 1
+  - moveName: Round house
+    moveAnimation: {fileID: 7400000, guid: 0db62a36e9f90984792d0464d769aaaf, type: 2}
+    inputSequence:
+    - buttons: 03000000
+      frameWindow: 1
+    - buttons: 02000000
+      frameWindow: 1
+  - moveName: Spin Kick
+    moveAnimation: {fileID: 7400000, guid: 6df09d59ca6d3ea46a34ecbec058d0fd, type: 2}
+    inputSequence:
+    - buttons: 03000000
+      frameWindow: 1
+    - buttons: 02000000
+      frameWindow: 1
+    - buttons: 03000000
+      frameWindow: 1
